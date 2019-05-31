@@ -1,0 +1,115 @@
+                                                    body {
+                                                        font-family: "DiavloLight", Arial;
+                                                        font-size: 15px;
+                                                        margin: 0px;
+                                                        padding: 0px;
+                                                        background: #f5f5f5;
+                                                        background-size: 100% 100%;
+                                                        background-attachment: fixed;
+                                                    }
+                                                    /*=============PC==================*/
+                                                    
+                                                    .wappper {
+                                                        width: 100%;
+                                                        height: auto;
+                                                        min-height: 100vh;
+                                                        padding: 0;
+                                                        background: #FFF;
+                                                        overflow: hidden;
+                                                        clear: both;
+                                                        margin: 0 auto;
+                                                        position: relative;
+                                                    }
+                                                    
+                                                    .top {
+                                                        position: relative;
+                                                    }
+                                                    
+                                                    .top .clogo img {
+                                                        position: absolute;
+                                                        margin: 10px;
+                                                        width: 100px;
+                                                        height: 100px;
+                                                    }
+                                                    
+                                                    .top .background img {
+                                                        display: block;
+                                                        width: 100%;
+                                                        height: auto;
+                                                    }
+                                                    
+                                                    .top .background_decor img {
+                                                        width: 523px;
+                                                        height: auto;
+                                                        position: absolute;
+                                                        top: 55%;
+                                                        left: 2%;
+                                                    }
+                                                    
+                                                    .top-text {
+                                                        position: absolute;
+                                                        top: 30%;
+                                                        left: 50%;
+                                                        transform: translate(-50%, -50%);
+                                                        color: black;
+                                                    }
+                                                    
+                                                    .top-text .top-slogan {
+                                                        display: block;
+                                                        font-size: 62px;
+                                                        font-weight: 400;
+                                                        letter-spacing: 15px;
+                                                    }
+                                                    
+                                                    .top-slogan_sub {
+                                                        display: block;
+                                                        font-size: 25px;
+                                                        font-weight: 700;
+                                                        letter-spacing: 10px;
+                                                    }
+                                                    
+                                                    .top-header-right {
+                                                        position: absolute;
+                                                        top: 5%;
+                                                        right: 19%;
+                                                    }
+                                                    
+                                                    #act {
+                                                        margin-top: 35px;
+                                                        margin-left: -85px;
+                                                        ;
+                                                    }
+                                                    
+                                                    #act a {
+                                                        text-decoration: none;
+                                                        color: rgb(38, 18, 167);
+                                                    }
+                                                    
+                                                    #act a:hover {
+                                                        background: red;
+                                                        color: #FFF;
+                                                        border-radius: 5px;
+                                                        -o-border-radius: 5px;
+                                                        -moz-border-radius: 5px;
+                                                        -webkit-border-radius: 5px;
+                                                    }
+                                                    
+                                                    #act a:visited {
+                                                        background-color: red;
+                                                    }
+                                                    
+                                                    #act li {
+                                                        margin-top: 10px;
+                                                        margin-right: 6px;
+                                                        font-size: 20px;
+                                                        list-style: none;
+                                                    }
+                                                    
+                                                    .top-function {
+                                                        position: absolute;
+                                                        top: 5%;
+                                                        right: 60%;
+                                                        -webkit-clip-path: circle(50% at 50% 50%);
+                                                        clip-path: circle(50% at 50% 50%);
+                                                        border: boild black;
+                                                    }
