@@ -1,0 +1,261 @@
+body {
+    font-family: "DiavloLight", Arial;
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px;
+    background: #f5f5f5;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+/*=============PC==================*/
+
+.wappper {
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    padding: 0;
+    background: #FFF;
+    overflow: hidden;
+    clear: both;
+    margin: 0 auto;
+    position: relative;
+}
+
+.top {
+    position: relative;
+}
+
+.top .clogo img {
+    position: absolute;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.top .background img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.top .background_decor img {
+    width: 523px;
+    height: auto;
+    position: absolute;
+    top: 55%;
+    left: 2%;
+}
+
+.top-text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+.top-text .top-slogan {
+    display: block;
+    font-size: 62px;
+    font-weight: 400;
+    letter-spacing: 15px;
+}
+
+.top-slogan_sub {
+    display: block;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 10px;
+}
+
+.top-header-right {
+    position: absolute;
+    top: 5%;
+    right: 19%;
+}
+
+.act {
+    position: absolute;
+    top: 30%;
+    left: 112%;
+
+
+}
+
+.act select {
+    border-top-width: initial;
+    background-color: gray;
+    color: bisque;
+    font-size: 20px;
+    /* border-radius: 5px; old*/
+    text-align: center;
+    line-height: normal;
+    /*moi them vao*/
+    -webkit-appearance: button;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+
+    -moz-padding-end: 20px;
+    -webkit-padding-start: 2px;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.act #lang {
+    position: absolute;
+    top: 4%;
+    right: 141%;
+}
+
+
+/* #act a {
+                                                        text-decoration: none;
+                                                        color: rgb(38, 18, 167);
+                                                    }
+                                                    
+                                                    #act a:hover {
+                                                        background: red;
+                                                        color: #FFF;
+                                                        border-radius: 5px;
+                                                        -o-border-radius: 5px;
+                                                        -moz-border-radius: 5px;
+                                                        -webkit-border-radius: 5px;
+                                                    }
+                                                    
+                                                    #act a:visited {
+                                                        background-color: red;
+                                                    }
+                                                    
+                                                    #act li {
+                                                        margin-top: 10px;
+                                                        margin-right: 6px;
+                                                        font-size: 20px;
+                                                        list-style: none;
+                                                    }
+                                                     */
+
+.top-function {
+    position: absolute;
+    top: 37%;
+    right: 5%;
+}
+
+#text-kp {
+    display: block;
+    font-size: 34px;
+    font-weight: 700;
+    letter-spacing: 10px;
+    color: #000;
+    position: absolute;
+    top: 35%;
+    right: 33%;
+    cursor: pointer;
+}
+
+#text-lh {
+    display: block;
+    font-size: 34px;
+    font-weight: 700;
+    letter-spacing: 10px;
+    color: #000;
+    position: absolute;
+    top: 65%;
+    right: 17%;
+    cursor: pointer;
+}
+
+#img_tresu img {
+    width: 100px;
+
+    height: auto;
+
+    position: absolute;
+
+    top: 39%;
+
+    right: 15%;
+}
+
+#img_loca img {
+    width: 100px;
+
+    height: auto;
+
+    position: absolute;
+
+    top: 53%;
+    right: 45%;
+}
+
+.function_img img {
+    width: 600px;
+    height: 600px;
+
+}
+
+#look input[type=search] {
+    background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+    border: solid 1px #ccc;
+    padding: 9px 10px 9px 32px;
+    width: 65px;
+
+    position: absolute;
+    top: 42%;
+    right: 64%;
+
+    border-radius: 10em;
+
+    transition: all .5s;
+}
+
+
+#look input[type=search] {
+    -webkit-appearance: textfield;
+    -webkit-box-sizing: content-box;
+    font-family: inherit;
+    font-size: 100%;
+}
+
+#look input[type=search]:hover {
+
+    width: 130px;
+
+    background-color: #fff;
+    border-color: #66CC75;
+
+    box-shadow: 0 0 5px rgba(109, 207, 246, .5);
+    border-radius: 3em;
+}
+
+#designby b {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+}
+
+button {
+    background-color: #d2f7f8;
+
+    border-radius: 3px;
+
+    padding: 14px 20px;
+
+    margin: 8px 0;
+
+    border: none;
+
+    cursor: pointer;
+
+    width: 100%;
+
+    font-size: 30px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
